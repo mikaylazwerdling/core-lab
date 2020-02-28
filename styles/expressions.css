@@ -41,6 +41,7 @@
     position: absolute;
     z-index: 10;
 }
+
 .forest:hover .tree{
  opacity: 0;
 }
@@ -51,7 +52,6 @@
     max-width: 100%;
     position: absolute;
     z-index: 9;
-    
 }
 
 .artist {
@@ -119,8 +119,6 @@
     text-align: center;
 }
 
-
-
 .treegradient{
     width: 100%;
     height: auto;
@@ -129,6 +127,7 @@
     position: relative;
     margin-top: -200px;  
 }
+
 
 
 
