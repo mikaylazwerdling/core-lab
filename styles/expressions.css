@@ -1,0 +1,172 @@
+.page {
+    background: rgb(2,2,12);
+    background: linear-gradient(180deg, rgba(2,2,12,1) 0%, rgba(4,7,3,1) 100%);
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+}
+
+.doodles {
+    height: auto;
+    width: 97%;
+    position: fixed;
+    top: 15px;
+    z-index: 100;
+}
+
+.doodle {
+    height: auto;
+    padding: 20px;
+}
+
+.topsection{
+    position: relative;
+    width: 100%;
+    z-index: 200;
+}
+
+.forest{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.tree {
+    height: auto;
+    max-width: 100%;
+    transition:opacity 1s;
+    position: absolute;
+    z-index: 10;
+}
+.forest:hover .tree{
+ opacity: 0;
+}
+
+
+.treeinvert {
+    height: auto;
+    max-width: 100%;
+    position: absolute;
+    z-index: 9;
+    
+}
+
+.artist {
+    font-family: kopius-condensed, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 70px;
+    color: #F6D2C2;
+    text-shadow: 1px 1px 5px #F2956C;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 35%;
+    z-index: 99;
+}
+
+.artist:hover {
+    color: white;
+    mix-blend-mode: screen;
+    font-size: 80px;
+}
+
+
+
+.songtitle {
+    font-family: kopius-condensed, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 75px;
+    line-height: 0.9;
+    text-align: right;
+    color: #F6D2C2;
+    text-shadow: 1px 1px 5px #F2956C;
+    position: absolute;
+    right: 3%;
+    margin-right: 15%;
+    margin-top: 3%;
+    z-index: 99;
+}
+
+.songtitle:hover {
+    color: white;
+    mix-blend-mode: screen;
+    font-size: 90px;
+}
+
+.lyrics {
+    margin-top: 65%;
+    font-family: kopius-condensed, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #F6D2C2;
+    width: 60%;
+    margin-left: 20%;
+    z-index: 4;
+    position: relative;
+}
+
+.rightalign{
+    text-align: right;
+}
+
+.centeralign{
+    text-align: center;
+}
+
+
+
+.treegradient{
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    z-index: 2;
+    position: relative;
+    margin-top: -200px;  
+}
+
+
+
+@media only screen and (max-width: 800px){
+.lyrics {
+    font-size: 16px;
+    margin-top: 120%;  
+}
+
+span{
+    font-size: 28px !important;
+}
+
+.artist{
+    font-size: 48px;
+    margin-top: 70%;
+}
+
+.songtitle{
+    font-size: 48px;
+}
+
+.forest{
+  height: 600px;
+  width: 60%;
+  overflow: hidden;
+}
+
+.tree{
+max-width: 200%;
+margin-left: -50%;
+}
+
+.treeinvert{
+max-width: 200%;
+margin-left: -50%;
+}
+
+
+
+}
