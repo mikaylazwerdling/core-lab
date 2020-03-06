@@ -65,7 +65,6 @@ a:hover {
     font-family: prestige-elite-std, monospace;
     font-weight: 400;
     font-style: italic;
-
 }
 
 a:active {
@@ -89,8 +88,8 @@ a:active {
     font-style: normal;
     padding: 10px;
     border-bottom: 1px solid black;
-
 }
+
 
 .bottomblock {
     font-family: prestige-elite-std, monospace;
@@ -117,10 +116,14 @@ a:active {
     left: 200px;
     top: 575px;
     box-shadow: 10px 10px lime;
+    
+}
+
+.firstwindow:hover{
+    box-shadow: 10px 10px 20px lime;
 }
 
 .secondwindow {
-
     background-blend-mode: exclusion;
     height: 476px;
     width: 342px;
@@ -133,6 +136,10 @@ a:active {
 
 }
 
+.secondwindow:hover{
+    box-shadow: 10px 10px 20px lime;
+}
+
 .thirdwindow {
     height: 708px;
     width: 466px;
@@ -143,6 +150,13 @@ a:active {
     top: 1800px;
     margin-bottom: 400px;
     box-shadow: 10px 10px lime;
+}
+
+.thirdwindow:hover{
+    mix-blend-mode: unset;
+    
+    
+    box-shadow: 10px 10px 20px lime;
 }
 
 .bookmark {
