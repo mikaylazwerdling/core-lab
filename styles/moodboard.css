@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+    margin: 0;
+}
+
+.container{
+    background-color: darkslateblue;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.container.darkmode{
+    background-color: crimson;
+}
+
+.container.darkmode .switch{
+    border: 2px solid white;
+}
+
+.container.darkmode .switchbutton{
+    background:white;
+    right: 0px;
+    left: auto;
+}
+
+.container.darkmode .title{
+    filter: invert(100%);
+}
+
+.title{
+    font-family: 'Space Mono', monospace;
+    font-size: 42pt;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 8px 8px black;
+    background-color: cornsilk;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+img{
+    max-width: 250px;
+    border: 2px solid black;
+    transition: transform 1s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.no{
+    width: 120px;
+    position: absolute;
+    top: 10;
+    left: 50%;
+    display: none ;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.information {
+    font-family: 'Space Mono', monospace;
+    font-size: 17pt;
+    width:350px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 8px 8px black;
+    background-color: cornsilk;
+    position: absolute;
+    top: 10%;
+}
+
+.circle{
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    
+}
+
+.switch{
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.switchbutton{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.playlist{
+    height: auto;
+    width: 350px;
+    border: 2px solid black;
+    box-shadow: 8px 8px black;
+    background-color: cornsilk;
+    padding: 20px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.img_one{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.img_two{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+}
+
+.img_three{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.img_four{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.img_five{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.img_six{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.img_seven{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+
+.img_eight{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+.img_nine{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.draggable{
+    cursor: move;
+}
+
+.extra{
+    color: darkgreen;
+}
+
+a {
+    color: darkgreen;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    
+}
