@@ -38,3 +38,16 @@ $( function() {
      })
 
   } );
+
+
+
+    // toggle switch
+    $(".switch").click( function(){
+        $("body").toggleClass("darkmode");
+        $(".home").toggleClass("darkmode");
+        $(".title_one").toggleClass("darkmode");
+        $(".title_two").toggleClass("darkmode");
+        $(".avatar_container").toggleClass("darkmode");
+    })
+
+    

@@ -21,11 +21,11 @@ body{
     background-color: crimson;
 }
 
-.container.darkmode .switch{
+.container.darkmode.switch{
     border: 2px solid white;
 }
 
-.container.darkmode .switchbutton{
+.container.darkmode.switchbutton{
     background:white;
     right: 0px;
     left: auto;
